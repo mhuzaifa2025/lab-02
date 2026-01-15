@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // 1. Initialize Views
+
         cityList = findViewById(R.id.city_list);
         Button btnAddCity = findViewById(R.id.button_add);
         Button btnDeleteCity = findViewById(R.id.button_delete);
